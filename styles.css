@@ -57,11 +57,29 @@ a {
   display: inline-block;
 }
 
-.main-title, .main-about, .main-programs, .main-signup {
+.main-title, .main-about, .main-signup {
   align-items: center;
   justify-content: center;
   position: absolute;
   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-programs {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.main-programs p {
+  overflow: scroll;
+}
+
+.main-programs-header h1 {
+  align-items: center;
+  justify-content: center;
+  position: absolute; 
   left: 50%;
   transform: translate(-50%, -50%);
 }
